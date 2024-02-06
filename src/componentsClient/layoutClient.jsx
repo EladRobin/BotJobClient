@@ -1,12 +1,14 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import HeaderClient from './headerClient';
+import FooterClient from './footerClient.jsx';
 
 function LayoutClient() {
     return (
         <React.Fragment>
             <HeaderClient />
             <Outlet />
+            <FooterClient />
         </React.Fragment>
     )
 }
