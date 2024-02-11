@@ -4,11 +4,13 @@ function FooterClient() {
 
 
   return (
-    <div >
-      <h1>FooterClient</h1>
+    <>
+        <div>Welcome to Home footerClient</div>
 
-    </div>
+    </>
+   
   )
 }
+
 
 export default FooterClient

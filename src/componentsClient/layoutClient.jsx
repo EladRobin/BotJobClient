@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import HeaderClient from './headerClient';
-import FooterClient from './footerClient.jsx';
+import FooterClient from './footerClient';
 
 function LayoutClient() {
     return (
